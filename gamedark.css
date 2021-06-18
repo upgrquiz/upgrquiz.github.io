@@ -5,7 +5,7 @@
   font-size: 1.8rem; /* text size */
   border: 0.1rem solid rgb(86, 165, 235, 0.25); /* bordering */
   background-color: white; 
-  color: black;
+  
 }
 
 .choice-container:hover { /* when hovering */
@@ -24,6 +24,7 @@
 .choice-text { /* text of choices */
   padding: 1.5rem; /* padding around */
   width: 100%;
+  color: black;
 }
 
 .correct { /* when answer is correct will be green (when wee add to class 'ClassToApply' into div) */
